@@ -3,18 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Mano puslapis</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/tablets_layout.css">
+    <link rel="stylesheet" href="/css/design.css">
 </head>
 <body>
+
 <header>
     <nav>
         <ul>
             <li>
                 <a href="/">Pradžia</a>
             </li>
+            <li>
+                <a href="kontaktai.html">Kontaktai</a>
+            </li>
+            <li>
+                <a href="porfolio.html">Darbai</a>
+            </li>
         </ul>
     </nav>
 </header>
-<main>
+<main class="main_content center">
+    <div>
     <h1>Mano pirmas puslapis</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eius eum, eveniet illo in iste itaque iusto
         libero, mollitia nulla numquam obcaecati quisquam repellendus sapiente vitae. Aliquid necessitatibus placeat
@@ -86,9 +101,52 @@
         laborum magni mollitia nisi nostrum nulla officia pariatur perferendis quas reprehenderit sit veniam veritatis
         vitae voluptas voluptates! Ad alias aliquam asperiores dolorum facere, facilis magnam reprehenderit similique
         suscipit voluptatibus. Atque, maiores, numquam. Non, odio.</p>
+    </div>
+    <img src="/img/off.png" id="lempute"/>
+    <h1 id="uuid2">Darbas su Elementais</h1>
+    <h3 id="uuid">Sveiki čia matysime rezultatus</h3>
+    <button id="paspausti">Skaiciuoti paveikslelius</button>
+    <hr/>
+    <img src="/img/logo.png" alt="Foto" class="galerijos_foto">
+    <img src="/img/logo.png" alt="Foto" class="galerijos_foto">
+    <img src="/img/logo.png" alt="Foto" class="galerijos_foto">
+    <img src="/img/logo.png" alt="Foto" class="galerijos_foto">
+    <img src="/img/logo.png" alt="Foto" class="galerijos_foto">
+    <img src="/img/logo.png" alt="Foto" class="galerijos_foto">
+    <img src="/img/logo.png" alt="Foto" class="galerijos_foto">
+    <hr/>
+    <div class="wrapper">
+    <div class="element">
+        1-mas elementas
+    </div>
+    <div class="element">
+        2-ras elementas
+    </div>
+    <div class="element">
+        3-čias elementas
+    </div>
+    <div class="element">
+        4-tas elementas
+    </div>
+</div>
 </main>
+<aside>
+    <div class="relkama">TAVO reklama</div>
+    <form id="myForm">
+        <h2 id="displayText"></h2>
+        <input type="text" id="duomenys">
+        <button type="submit">Saugoti</button>
+    </form>
+</aside>
 <footer>
-      <span>© 2023 - visos teisės saugomos</span>
+    <span>© 2023 - visos teisės saugomos</span>
 </footer>
 </body>
+    <script src="/projecto_failai/public/js/jquery-3.7.0.min.js"></script>
+    <script src="/projecto_failai/public/js/paveiksleliai.js"></script>
+    <script src="/projecto_failai/public/js/meniu.js"></script>
+    <script src="/projecto_failai/public/js/uzduotisreg.js"></script>
+    <script src="/projecto_failai/public/js/testas.js"></script>
+<!--    <script src="/projecto_failai/public/js/elementai.js"></script>-->
+<!--    <script src="/projecto_failai/public/js/testas.js"></script>-->
 </html>

@@ -1,0 +1,68 @@
+let b = 'Ugne'
+
+let c = "Mano vardas " + b;
+console.log(c);
+
+
+//1.Kintamieji, matematika
+
+let x = 1996;
+let y = 10;
+let d = 28;
+let a = (x % 10) + (y % 10) + (d % 10);
+console.log(a);
+
+
+//2.Duotas kintamasis r = 15. Sukurti algoritmus kurie skaičiuotų apskritimo ilgį ir plotą.
+
+let r = 15;
+let pi = Math.PI
+
+let ilgis = 2 * pi * r;
+let plotas = pi * r **2;
+
+console.log(`Apskritimo ilgis yra ${ilgis}`)
+console.log(`Apskritimo plotas yra ${plotas}`)
+
+
+//1. Kintamųjų tipai
+
+//1. Duoti du sveikųjų skaičių intervalai [a; b] ir [c; d], kur a ≤ c. Sudarykite programą, kuri nustatytų, ar egzistuoja šių intervalų sankirta ir, jeigu sankirta egzistuoja, tai raskite jos rėžius [x; y].
+let q = 3;
+let w = 17;
+let e = 6;
+let t = 18;
+
+if (w < e || t < q) {
+  console.log('Nesikerta');
+}
+else {
+  let  x = Math.max(q, e);
+  let  y = Math.min(w, t);
+  console.log(`Sankirta tarp intervalu [${x}; ${y}]`);
+}
+
+//2. Išveskite visus šiuos duomenis sakinio pavidalu, pvz:.
+
+console.log(`Tomas Tomauskas mokosi KTU, ${q} kurse, jo pazymiai [${w}, ${e}, ${t}]`)
+
+//3. Išveskite visų kintamųjų apibūdinimus su tipais (naudoti typeof), pvz:
+let k = 'Labas';
+let n = 50;
+
+console.log(`Parametro ${k} tipas yra ${typeof k}`);
+console.log(`Parametro ${n} tipas yra ${typeof n}`);
+
+//=== Objektai ir masyvai ===
+//4. Sukurkite studento objektą, naudokite tuos pačius duomenis (vardas, pavarde, ...).
+
+studentas = {
+    vardas: 'Ugne',
+    Pavarde: 'Pereviciute'
+    amzius: '26'
+    akys: 'zalios'
+}
+
+
+
+3. uzduotis
